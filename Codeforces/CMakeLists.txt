@@ -13,3 +13,4 @@ add_executable("SlavicGsFavoriteProblem" "Round #835/SlavicGsFavoriteProblem.cpp
 
 add_executable("ExtremelyRound" "Educational Codeforces Round 139/ExtremelyRound.cpp")
 add_executable("NotepadSharp" "Educational Codeforces Round 139/Notepad#.cpp")
+add_executable("HamiltonianWall" "Educational Codeforces Round 139/HamiltonianWall.cpp")
