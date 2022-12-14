@@ -12,3 +12,4 @@ add_executable("Quests" "Round #835/Quests.cpp")
 add_executable("SlavicGsFavoriteProblem" "Round #835/SlavicGsFavoriteProblem.cpp")
 
 add_executable("ExtremelyRound" "Educational Codeforces Round 139/ExtremelyRound.cpp")
+add_executable("NotepadSharp" "Educational Codeforces Round 139/Notepad#.cpp")
