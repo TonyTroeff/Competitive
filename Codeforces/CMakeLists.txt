@@ -16,3 +16,7 @@ add_executable("NotepadSharp" "Educational Codeforces Round 139/Notepad#.cpp")
 add_executable("HamiltonianWall" "Educational Codeforces Round 139/HamiltonianWall.cpp")
 
 add_executable("DoremysPaint" "Global Round 24/DoremysPaint.cpp")
+
+add_executable("Sum" "Round #827/Sum.cpp")
+add_executable("Increasing" "Round #827/Increasing.cpp")
+add_executable("Stripes" "Round #827/Stripes.cpp")
