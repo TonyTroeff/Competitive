@@ -20,3 +20,5 @@ add_executable("DoremysPaint" "Global Round 24/DoremysPaint.cpp")
 add_executable("Sum" "Round #827/Sum.cpp")
 add_executable("Increasing" "Round #827/Increasing.cpp")
 add_executable("Stripes" "Round #827/Stripes.cpp")
+
+add_executable("HallOfFame" "Hello 2023/HallOfFame.cpp")
