@@ -22,3 +22,7 @@ add_executable("Increasing" "Round #827/Increasing.cpp")
 add_executable("Stripes" "Round #827/Stripes.cpp")
 
 add_executable("HallOfFame" "Hello 2023/HallOfFame.cpp")
+
+add_executable("DivisibleArray" "Round #873/DivisibleArray.cpp")
+add_executable("PermutationSwap" "Round #873/PermutationSwap.cpp")
+add_executable("CountingOrders" "Round #873/CountingOrders.cpp")
