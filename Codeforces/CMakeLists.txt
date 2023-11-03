@@ -28,3 +28,4 @@ add_executable("PermutationSwap" "Round #873/PermutationSwap.cpp")
 add_executable("CountingOrders" "Round #873/CountingOrders.cpp")
 
 add_executable("SortingWithTwos" "Round #907/SortingWithTwos.cpp")
+add_executable("DejaVu" "Round #907/DejaVu.cpp")
