@@ -26,3 +26,5 @@ add_executable("HallOfFame" "Hello 2023/HallOfFame.cpp")
 add_executable("DivisibleArray" "Round #873/DivisibleArray.cpp")
 add_executable("PermutationSwap" "Round #873/PermutationSwap.cpp")
 add_executable("CountingOrders" "Round #873/CountingOrders.cpp")
+
+add_executable("SortingWithTwos" "Round #907/SortingWithTwos.cpp")
