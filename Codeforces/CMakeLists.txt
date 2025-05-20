@@ -3,32 +3,38 @@ project(Codeforces)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable("Yes-Yes" "Round #834/Yes-Yes.cpp")
-add_executable("LostPermutation" "Round #834/LostPermutation.cpp")
-add_executable("Thermostat" "Round #834/Thermostat.cpp")
-add_executable("MakeItRound" "Round #834/MakeItRound.cpp")
+add_executable("E139_A" "Educational Codeforces Round 139/Extremely Round.cpp")
+add_executable("E139_B" "Educational Codeforces Round 139/Notepad#.cpp")
+add_executable("E139_C" "Educational Codeforces Round 139/Hamiltonian Wall.cpp")
 
-add_executable("Quests" "Round #835/Quests.cpp")
-add_executable("SlavicGsFavoriteProblem" "Round #835/SlavicGsFavoriteProblem.cpp")
-
-add_executable("ExtremelyRound" "Educational Codeforces Round 139/ExtremelyRound.cpp")
-add_executable("NotepadSharp" "Educational Codeforces Round 139/Notepad#.cpp")
-add_executable("HamiltonianWall" "Educational Codeforces Round 139/HamiltonianWall.cpp")
-
-add_executable("DoremysPaint" "Global Round 24/DoremysPaint.cpp")
+add_executable("G24_A" "Global Round 24/Doremy's Paint.cpp")
 
 add_executable("Sum" "Round #827/Sum.cpp")
 add_executable("Increasing" "Round #827/Increasing.cpp")
 add_executable("Stripes" "Round #827/Stripes.cpp")
 
-add_executable("HallOfFame" "Hello 2023/HallOfFame.cpp")
+add_executable("834_A" "Round #834/Yes-Yes.cpp")
+add_executable("834_B" "Round #834/Lost Permutation.cpp")
+add_executable("834_C" "Round #834/Thermostat.cpp")
+add_executable("834_D" "Round #834/Make It Round.cpp")
 
-add_executable("DivisibleArray" "Round #873/DivisibleArray.cpp")
-add_executable("PermutationSwap" "Round #873/PermutationSwap.cpp")
-add_executable("CountingOrders" "Round #873/CountingOrders.cpp")
+add_executable("835_F" "Round #835/Quests.cpp")
+add_executable("835_G" "Round #835/SlavicG's Favorite Problem.cpp")
 
-add_executable("SortingWithTwos" "Round #907/SortingWithTwos.cpp")
-add_executable("DejaVu" "Round #907/DejaVu.cpp")
+add_executable("Hello_2023_A" "Hello 2023/Hall of Fame.cpp")
 
-add_executable("Twice" "Round #988/Twice.cpp")
-add_executable("InterceptedInputs" "Round #988/InterceptedInputs.cpp")
+add_executable("873_2_A" "Round #873/Divisible Array.cpp")
+add_executable("PermutationSwap" "Round #873/Permutation Swap.cpp")
+add_executable("873_1_A" "Round #873/Counting Orders.cpp")
+
+add_executable("907_A" "Round #907/Sorting with Twos.cpp")
+add_executable("970_B" "Round #907/Deja Vu.cpp")
+
+add_executable("983_A" "Round #983/Circuit.cpp")
+
+add_executable("987_A" "Round #987/Penchick and Modern Monument.cpp")
+
+add_executable("988_A" "Round #988/Twice.cpp")
+add_executable("988_B" "Round #988/Intercepted Inputs.cpp")
+
+add_executable("1025_A" "Round #1025/It's Time To Duel.cpp")
