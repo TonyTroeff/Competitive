@@ -43,4 +43,9 @@ add_executable("987_A" "Round #987/Penchick and Modern Monument.cpp")
 add_executable("988_A" "Round #988/Twice.cpp")
 add_executable("988_B" "Round #988/Intercepted Inputs.cpp")
 
+add_executable("1020_A" "Round #1020/Dr. TC.cpp")
+add_executable("1020_B" "Round #1020/St. Chroma.cpp")
+add_executable("1020_C" "Round #1020/Cherry Bomb.cpp")
+add_executable("1020_D" "Round #1020/Flower Boy.cpp")
+
 add_executable("1025_A" "Round #1025/It's Time To Duel.cpp")
