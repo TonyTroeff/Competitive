@@ -3,9 +3,15 @@ project(Codeforces)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable("E139_A" "Educational Codeforces Round 139/Extremely Round.cpp")
-add_executable("E139_B" "Educational Codeforces Round 139/Notepad#.cpp")
-add_executable("E139_C" "Educational Codeforces Round 139/Hamiltonian Wall.cpp")
+add_executable("E139_A" "Educational Round 139/Extremely Round.cpp")
+add_executable("E139_B" "Educational Round 139/Notepad#.cpp")
+add_executable("E139_C" "Educational Round 139/Hamiltonian Wall.cpp")
+
+add_executable("E178_A" "Educational Round 178/Three Decks.cpp")
+add_executable("E178_B" "Educational Round 178/Move to the End.cpp")
+add_executable("E178_C" "Educational Round 178/Card Game.cpp")
+add_executable("E178_D" "Educational Round 178/Array and GCD.cpp")
+add_executable("E178_E" "Educational Round 178/Unpleasant Strings.cpp")
 
 add_executable("G24_A" "Global Round 24/Doremy's Paint.cpp")
 
