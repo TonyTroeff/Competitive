@@ -47,5 +47,7 @@ add_executable("1020_A" "Round #1020/Dr. TC.cpp")
 add_executable("1020_B" "Round #1020/St. Chroma.cpp")
 add_executable("1020_C" "Round #1020/Cherry Bomb.cpp")
 add_executable("1020_D" "Round #1020/Flower Boy.cpp")
+add_executable("1020_E" "Round #1020/Wolf.cpp")
+add_executable("1020_F" "Round #1020/Goblin.cpp")
 
 add_executable("1025_A" "Round #1025/It's Time To Duel.cpp")
