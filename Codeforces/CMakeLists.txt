@@ -51,3 +51,7 @@ add_executable("1020_E" "Round #1020/Wolf.cpp")
 add_executable("1020_F" "Round #1020/Goblin.cpp")
 
 add_executable("1025_A" "Round #1025/It's Time To Duel.cpp")
+
+add_executable("1026_A" "Round #1026/Fashionable Array.cpp")
+add_executable("1026_B" "Round #1026/Down with Brackets.cpp")
+add_executable("1026_C" "Round #1026/Racing.cpp")
