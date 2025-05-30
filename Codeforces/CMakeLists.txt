@@ -12,6 +12,9 @@ add_executable("E139_A" "Educational Round #139/Extremely Round.cpp")
 add_executable("E139_B" "Educational Round #139/Notepad#.cpp")
 add_executable("E139_C" "Educational Round #139/Hamiltonian Wall.cpp")
 
+add_executable("E173_A" "Educational Round #173/Coin Transformation.cpp")
+add_executable("E173_B" "Educational Round #173/Digits.cpp")
+
 add_executable("E178_A" "Educational Round #178/Three Decks.cpp")
 add_executable("E178_B" "Educational Round #178/Move to the End.cpp")
 add_executable("E178_C" "Educational Round #178/Card Game.cpp")
