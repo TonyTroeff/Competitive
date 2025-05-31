@@ -51,6 +51,13 @@ add_executable("987_A" "Round #987/Penchick and Modern Monument.cpp")
 add_executable("988_A" "Round #988/Twice.cpp")
 add_executable("988_B" "Round #988/Intercepted Inputs.cpp")
 
+add_executable("1016_A" "Round #1016/Ideal Generator.cpp")
+add_executable("1016_B" "Round #1016/Expensive Number.cpp")
+add_executable("1016_C" "Round #1016/Simple Repetition.cpp")
+add_executable("1016_D" "Round #1016/Skibidi Table.cpp")
+add_executable("1016_E" "Round #1016/Min Max MEX.cpp")
+add_executable("1016_F" "Round #1016/Hackers and Neural Networks.cpp")
+
 add_executable("1020_A" "Round #1020/Dr. TC.cpp")
 add_executable("1020_B" "Round #1020/St. Chroma.cpp")
 add_executable("1020_C" "Round #1020/Cherry Bomb.cpp")
