@@ -83,3 +83,7 @@ add_executable("1027_B" "Round #1027/Not Quite a Palindromic String.cpp")
 add_executable("1027_C" "Round #1027/Need More Arrays.cpp")
 add_executable("1027_D" "Round #1027/Come a Little Closer.cpp")
 add_executable("1027_E" "Round #1027/Kirei Attacks the Estate.cpp")
+
+add_executable("1028_A" "Round #1028/Gellyfish and Tricolor Pansy.cpp")
+add_executable("1028_B" "Round #1028/Gellyfish and Baby's Breath.cpp")
+add_executable("1028_C" "Round #1028/Gellyfish and Flaming Peony.cpp")
