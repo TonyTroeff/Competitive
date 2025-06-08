@@ -21,6 +21,12 @@ add_executable("E178_C" "Educational Round #178/Card Game.cpp")
 add_executable("E178_D" "Educational Round #178/Array and GCD.cpp")
 add_executable("E178_E" "Educational Round #178/Unpleasant Strings.cpp")
 
+add_executable("E179_A" "Educational Round #179/Energy Crystals.cpp")
+add_executable("E179_B" "Educational Round #179/Fibonacci Cubes.cpp")
+add_executable("E179_C" "Educational Round #179/Equal Values.cpp")
+add_executable("E179_D" "Educational Round #179/Creating a Schedule.cpp")
+add_executable("E179_E" "Educational Round #179/Changing the String.cpp")
+
 add_executable("G24_A" "Global Round #24/Doremy's Paint.cpp")
 
 add_executable("Sum" "Round #827/Sum.cpp")
