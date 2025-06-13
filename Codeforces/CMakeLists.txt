@@ -100,3 +100,8 @@ add_executable("1029_C" "Round #1029/Cool Partition.cpp")
 add_executable("1029_D" "Round #1029/Retaliation.cpp")
 add_executable("1029_E" "Round #1029/Lost Soul.cpp")
 add_executable("1029_F" "Round #1029/Wildflower.cpp")
+add_executable("1029_G" "Round #1029/Omg Graph.cpp")
+
+add_executable("1030_A" "Round #1030/Equal Subsequences.cpp")
+add_executable("1030_B" "Round #1030/Make It Permutation.cpp")
+add_executable("1030_C" "Round #1030/Make It Beautiful.cpp")
