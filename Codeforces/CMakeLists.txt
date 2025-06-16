@@ -105,3 +105,7 @@ add_executable("1029_G" "Round #1029/Omg Graph.cpp")
 add_executable("1030_A" "Round #1030/Equal Subsequences.cpp")
 add_executable("1030_B" "Round #1030/Make It Permutation.cpp")
 add_executable("1030_C" "Round #1030/Make It Beautiful.cpp")
+
+add_executable("1031_A" "Round #1031/Shashliks.cpp")
+add_executable("1031_B" "Round #1031/Good Start.cpp")
+add_executable("1031_C" "Round #1031/Smilo and Minecraft.cpp")
