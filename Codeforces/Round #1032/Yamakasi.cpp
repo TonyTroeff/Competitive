@@ -1,6 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+template <typename... T>
+class optimized_unordered_map : public unordered_map<T...> {
+public:
+    template <typename ...Args>
+    explicit optimized_unordered_map(Args&&... args) : unordered_map<T...>(forward<Args>(args)...) {
+        this->reserve(1024);
+        this->max_load_factor(0.25);
+    }
+};
+
 #define ll long long
 #define ull unsigned long long
 #define MOD ((ll)(1e9 + 7))
@@ -13,7 +23,7 @@ void init() {
 ll count(const vector<ll> &a, const ll &target_sum, const ll &limit) {
     ll ans = 0;
 
-    unordered_map<ll, int> freq;
+    optimized_unordered_map<ll, int> freq;
 
     int index = 0;
     while (index < a.size()) {
