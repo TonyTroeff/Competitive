@@ -15,7 +15,7 @@ public:
 #define ull unsigned long long
 #define MOD ((ll)(1e9 + 7))
 
-#define LEN 30
+#define BIT_LEN 30
 
 // #define SINGLE_TEST
 
@@ -29,9 +29,9 @@ void solve() {
     vector<int> a(n);
     for (int &el: a) cin >> el;
 
-    vector<int> bits_count(LEN);
+    vector<int> bits_count(BIT_LEN);
     for (const int &el: a) {
-        for (int m = 1, j = 0; j < LEN; m <<= 1, j++) {
+        for (int m = 1, j = 0; j < BIT_LEN; m <<= 1, j++) {
             if ((el & m) != 0) bits_count[j]++;
         }
     }
@@ -39,7 +39,7 @@ void solve() {
     ll ans = 0;
     for (const int &el: a) {
         ll sum = 0, m = 1;
-        for (int j = 0; j < LEN; m <<= 1, j++) {
+        for (int j = 0; j < BIT_LEN; m <<= 1, j++) {
             if ((el & m) == 0) sum += m * bits_count[j];
             else sum += m * (n - bits_count[j]);
         }

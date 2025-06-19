@@ -63,6 +63,7 @@ add_executable("1016_C" "Round #1016/Simple Repetition.cpp")
 add_executable("1016_D" "Round #1016/Skibidi Table.cpp")
 add_executable("1016_E" "Round #1016/Min Max MEX.cpp")
 add_executable("1016_F" "Round #1016/Hackers and Neural Networks.cpp")
+add_executable("1016_G" "Round #1016/Shorten the Array.cpp")
 
 add_executable("1017_A" "Round #1017/Trippi Troppi.cpp")
 add_executable("1017_B" "Round #1017/Bobritto Bandito.cpp")
