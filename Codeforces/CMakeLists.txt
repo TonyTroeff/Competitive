@@ -27,6 +27,9 @@ add_executable("E179_C" "Educational Round #179/Equal Values.cpp")
 add_executable("E179_D" "Educational Round #179/Creating a Schedule.cpp")
 add_executable("E179_E" "Educational Round #179/Changing the String.cpp")
 
+add_executable("E180_A" "Educational Round #180/Race.cpp")
+add_executable("E180_B" "Educational Round #180/Shrinking Array.cpp")
+
 add_executable("G24_A" "Global Round #24/Doremy's Paint.cpp")
 
 add_executable("Sum" "Round #827/Sum.cpp")
@@ -135,3 +138,7 @@ add_executable("1032_E" "Round #1032/Sponsor of Your Problems.cpp")
 add_executable("1032_F" "Round #1032/Yamakasi.cpp")
 add_executable("1032_G" "Round #1032/Gangsta.cpp")
 add_executable("1032_H" "Round #1032/Ice Baby.cpp")
+
+add_executable("1033_A" "Round #1033/Square of Rectangles.cpp")
+add_executable("1033_B" "Round #1033/Square Pool.cpp")
+add_executable("1033_C" "Round #1033/Divine Tree.cpp")
