@@ -29,6 +29,7 @@ add_executable("E179_E" "Educational Round #179/Changing the String.cpp")
 
 add_executable("E180_A" "Educational Round #180/Race.cpp")
 add_executable("E180_B" "Educational Round #180/Shrinking Array.cpp")
+add_executable("E180_D" "Educational Round #180/Reachability and Tree.cpp")
 
 add_executable("G24_A" "Global Round #24/Doremy's Paint.cpp")
 
