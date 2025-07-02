@@ -33,9 +33,9 @@ add_executable("E180_D" "Educational Round #180/Reachability and Tree.cpp")
 
 add_executable("G24_A" "Global Round #24/Doremy's Paint.cpp")
 
-add_executable("Sum" "Round #827/Sum.cpp")
-add_executable("Increasing" "Round #827/Increasing.cpp")
-add_executable("Stripes" "Round #827/Stripes.cpp")
+add_executable("827_A" "Round #827/Sum.cpp")
+add_executable("827_B" "Round #827/Increasing.cpp")
+add_executable("827_C" "Round #827/Stripes.cpp")
 
 add_executable("834_A" "Round #834/Yes-Yes.cpp")
 add_executable("834_B" "Round #834/Lost Permutation.cpp")
@@ -148,3 +148,4 @@ add_executable("1034_A" "Round #1034/Blackboard Game.cpp")
 add_executable("1034_B" "Round #1034/Tournament.cpp")
 add_executable("1034_C" "Round #1034/Prefix Min and Suffix Max.cpp")
 add_executable("1034_D" "Round #1034/Binary String Battle.cpp")
+add_executable("1034_E" "Round #1034/MEX Count.cpp")
