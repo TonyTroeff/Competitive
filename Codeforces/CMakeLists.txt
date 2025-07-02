@@ -143,3 +143,8 @@ add_executable("1032_H" "Round #1032/Ice Baby.cpp")
 add_executable("1033_A" "Round #1033/Square of Rectangles.cpp")
 add_executable("1033_B" "Round #1033/Square Pool.cpp")
 add_executable("1033_C" "Round #1033/Divine Tree.cpp")
+
+add_executable("1034_A" "Round #1034/Blackboard Game.cpp")
+add_executable("1034_B" "Round #1034/Tournament.cpp")
+add_executable("1034_C" "Round #1034/Prefix Min and Suffix Max.cpp")
+add_executable("1034_D" "Round #1034/Binary String Battle.cpp")
