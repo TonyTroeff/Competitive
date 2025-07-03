@@ -6,16 +6,16 @@ using namespace std;
 #define MAX 1e7
 
 vector<int> generate_primes() {
-    vector is_prime(MAX, true);
-    for (int p = 2; p * p < MAX; p++) {
+    vector is_prime(MAX + 1, true);
+    for (int p = 2; p * p <= MAX; p++) {
         if (!is_prime[p]) continue;
 
-        for (int i = p * p; i < MAX; i += p)
+        for (int i = p * p; i <= MAX; i += p)
             is_prime[i] = false;
     }
 
     vector<int> primes;
-    for (int p = 2; p < MAX; p++)
+    for (int p = 2; p <= MAX; p++)
         if (is_prime[p]) primes.push_back(p);
 
     return primes;
