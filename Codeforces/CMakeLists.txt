@@ -65,6 +65,12 @@ add_executable("987_A" "Round #987/Penchick and Modern Monument.cpp")
 add_executable("988_A" "Round #988/Twice.cpp")
 add_executable("988_B" "Round #988/Intercepted Inputs.cpp")
 
+add_executable("993_A" "Round #993/Easy Problem.cpp")
+add_executable("993_B" "Round #993/Normal Problem.cpp")
+add_executable("993_C" "Round #993/Hard Problem.cpp")
+add_executable("993_D" "Round #993/Harder Problem.cpp")
+add_executable("993_E" "Round #993/Insane Problem.cpp")
+
 add_executable("1003_A" "Round #1003/Skibidus and Amog'u.cpp")
 add_executable("1003_B" "Round #1003/Skibidus and Ohio.cpp")
 add_executable("1003_C" "Round #1003/Skibidus and Fanum Tax.cpp")
