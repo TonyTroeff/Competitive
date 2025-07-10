@@ -29,6 +29,7 @@ add_executable("E179_E" "Educational Round #179/Changing the String.cpp")
 
 add_executable("E180_A" "Educational Round #180/Race.cpp")
 add_executable("E180_B" "Educational Round #180/Shrinking Array.cpp")
+add_executable("E180_C" "Educational Round #180/Coloring Game.cpp")
 add_executable("E180_D" "Educational Round #180/Reachability and Tree.cpp")
 
 add_executable("G24_A" "Global Round #24/Doremy's Paint.cpp")
@@ -76,6 +77,7 @@ add_executable("1003_B" "Round #1003/Skibidus and Ohio.cpp")
 add_executable("1003_C" "Round #1003/Skibidus and Fanum Tax.cpp")
 add_executable("1003_D" "Round #1003/Skibidus and Sigma.cpp")
 add_executable("1003_E" "Round #1003/Skibidus and Rizz.cpp")
+add_executable("1003_G" "Round #1003/Skibidus and Capping.cpp")
 
 add_executable("1016_A" "Round #1016/Ideal Generator.cpp")
 add_executable("1016_B" "Round #1016/Expensive Number.cpp")
@@ -160,3 +162,9 @@ add_executable("1034_C" "Round #1034/Prefix Min and Suffix Max.cpp")
 add_executable("1034_D" "Round #1034/Binary String Battle.cpp")
 add_executable("1034_E" "Round #1034/MEX Count.cpp")
 add_executable("1034_F" "Round #1034/Minimize Fixed Points.cpp")
+
+add_executable("1035_A" "Round #1035/Add or XOR.cpp")
+add_executable("1035_B" "Round #1035/Line Segments.cpp")
+
+add_executable("1036_A" "Round #1036/Deranged Deletions.cpp")
+add_executable("1036_B" "Round #1036/Minimise Sum.cpp")
