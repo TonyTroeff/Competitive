@@ -70,6 +70,8 @@ add_executable("991_A" "Round #991/Line Breaks.cpp")
 add_executable("991_B" "Round #991/Transfusion.cpp")
 add_executable("991_C" "Round #991/Uninteresting Number.cpp")
 add_executable("991_D" "Round #991/Digital string maximization.cpp")
+add_executable("991_E" "Round #991/Three Strings.cpp")
+add_executable("991_G" "Round #991/Tree Destruction.cpp")
 
 add_executable("993_A" "Round #993/Easy Problem.cpp")
 add_executable("993_B" "Round #993/Normal Problem.cpp")
