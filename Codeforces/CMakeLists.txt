@@ -176,3 +176,7 @@ add_executable("1035_B" "Round #1035/Line Segments.cpp")
 
 add_executable("1036_A" "Round #1036/Deranged Deletions.cpp")
 add_executable("1036_B" "Round #1036/Minimise Sum.cpp")
+
+add_executable("1037_A" "Round #1037/Only One Digit.cpp")
+add_executable("1037_B" "Round #1037/No Casino in the Mountains.cpp")
+add_executable("1037_C" "Round #1037/I Will Definitely Make It.cpp")
