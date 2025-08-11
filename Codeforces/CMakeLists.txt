@@ -32,6 +32,8 @@ add_executable("E180_B" "Educational Round #180/Shrinking Array.cpp")
 add_executable("E180_C" "Educational Round #180/Coloring Game.cpp")
 add_executable("E180_D" "Educational Round #180/Reachability and Tree.cpp")
 
+add_executable("E181_A" "Educational Round #181/Difficult Contest.cpp")
+
 add_executable("G24_A" "Global Round #24/Doremy's Paint.cpp")
 
 add_executable("827_A" "Round #827/Sum.cpp")
@@ -180,3 +182,9 @@ add_executable("1036_B" "Round #1036/Minimise Sum.cpp")
 add_executable("1037_A" "Round #1037/Only One Digit.cpp")
 add_executable("1037_B" "Round #1037/No Casino in the Mountains.cpp")
 add_executable("1037_C" "Round #1037/I Will Definitely Make It.cpp")
+
+add_executable("1039_A" "Round #1039/Recycling Center.cpp")
+add_executable("1039_B" "Round #1039/Deque Process.cpp")
+add_executable("1039_C" "Round #1039/Leftmost Below.cpp")
+
+add_executable("1041_A" "Round #1041/Mix Mex Max.cpp")
