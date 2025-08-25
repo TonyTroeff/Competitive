@@ -188,3 +188,8 @@ add_executable("1039_B" "Round #1039/Deque Process.cpp")
 add_executable("1039_C" "Round #1039/Leftmost Below.cpp")
 
 add_executable("1041_A" "Round #1041/Mix Mex Max.cpp")
+
+add_executable("1042_A" "Round #1042/Lever.cpp")
+add_executable("1042_B" "Round #1042/Alternating Series.cpp")
+add_executable("1042_C" "Round #1042/Make it Equal.cpp")
+add_executable("1042_E" "Round #1042/Adjacent XOR.cpp")
