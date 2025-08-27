@@ -193,3 +193,8 @@ add_executable("1042_A" "Round #1042/Lever.cpp")
 add_executable("1042_B" "Round #1042/Alternating Series.cpp")
 add_executable("1042_C" "Round #1042/Make it Equal.cpp")
 add_executable("1042_E" "Round #1042/Adjacent XOR.cpp")
+
+add_executable("1043_A" "Round #1043/Homework.cpp")
+add_executable("1043_B" "Round #1043/The Secret Number.cpp")
+add_executable("1043_C1" "Round #1043/The Cunning Seller (easy).cpp")
+add_executable("1043_C2" "Round #1043/The Cunning Seller (hard).cpp")
