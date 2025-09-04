@@ -202,3 +202,7 @@ add_executable("1043_C2" "Round #1043/The Cunning Seller (hard).cpp")
 add_executable("1044_A" "Round #1044/Redstone.cpp")
 add_executable("1044_B" "Round #1044/Villagers.cpp")
 add_executable("1044_D" "Round #1044/Chicken Jockey.cpp")
+
+add_executable("1045_A" "Round #1045/Painting With Two Colors.cpp")
+add_executable("1045_B" "Round #1045/Add 0 or K.cpp")
+add_executable("1045_C" "Round #1045/Even Larger.cpp")
