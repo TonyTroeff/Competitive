@@ -36,6 +36,9 @@ add_executable("E181_A" "Educational Round #181/Difficult Contest.cpp")
 
 add_executable("G24_A" "Global Round #24/Doremy's Paint.cpp")
 
+add_executable("G29_A" "Global Round #29/Shortest Increasing Path.cpp")
+add_executable("G29_B" "Global Round #29/Multiple Construction.cpp")
+
 add_executable("827_A" "Round #827/Sum.cpp")
 add_executable("827_B" "Round #827/Increasing.cpp")
 add_executable("827_C" "Round #827/Stripes.cpp")
@@ -206,3 +209,11 @@ add_executable("1044_D" "Round #1044/Chicken Jockey.cpp")
 add_executable("1045_A" "Round #1045/Painting With Two Colors.cpp")
 add_executable("1045_B" "Round #1045/Add 0 or K.cpp")
 add_executable("1045_C" "Round #1045/Even Larger.cpp")
+
+add_executable("1046_A" "Round #1046/In the Dream.cpp")
+
+add_executable("1050_A" "Round #1050/Sublime Sequence.cpp")
+add_executable("1050_B" "Round #1050/Lasers.cpp")
+add_executable("1050_C" "Round #1050/Pacer.cpp")
+add_executable("1050_D" "Round #1050/Destruction of the Dandelion Fields.cpp")
+add_executable("1050_E" "Round #1050/Split.cpp")
