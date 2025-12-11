@@ -2,7 +2,7 @@
 using namespace std;
 
 #define ll long long
-#define llmax LONG_LONG_MAX
+#define MAX INT_MAX
 #define UNKNOWN (-1)
 
 struct machine {
@@ -93,8 +93,8 @@ int count_state_normalization_steps(const machine &machine) {
     return ops;
 }
 
-ll solve_part_one(const vector<machine> &machines) {
-    ll ans = 0;
+int solve_part_one(const vector<machine> &machines) {
+    int ans = 0;
 
     for (const machine &machine: machines)
         ans += count_state_normalization_steps(machine);
@@ -102,7 +102,7 @@ ll solve_part_one(const vector<machine> &machines) {
     return ans;
 }
 
-int transform_into_upper_triangular_form(const int mat_height, const int mat_width, vector<vector<ll>> &aug_mat, vector<int> &pivot_col_by_row) {
+int transform_into_upper_triangular_form(const int mat_height, const int mat_width, vector<vector<int>> &aug_mat, vector<int> &pivot_col_by_row) {
     int rank = 0;
 
     for (int col = 0; col < mat_width && rank < mat_height; col++) {
@@ -123,12 +123,12 @@ int transform_into_upper_triangular_form(const int mat_height, const int mat_wid
         for (int row = 0; row < mat_height; row++) {
             if (row == rank || aug_mat[row][col] == 0) continue;
 
-            const ll f1 = aug_mat[rank][col], f2 = aug_mat[row][col];
+            const int f1 = aug_mat[rank][col], f2 = aug_mat[row][col];
             for (int k = 0; k <= mat_width; k++)
                 aug_mat[row][k] = aug_mat[row][k] * f1 - aug_mat[rank][k] * f2;
 
             // Reduce by GCD
-            ll row_gcd = abs(aug_mat[row][0]);
+            int row_gcd = abs(aug_mat[row][0]);
             for (int k = 1; k <= mat_width && row_gcd != 1; k++)
                 row_gcd = gcd(row_gcd, abs(aug_mat[row][k]));
 
@@ -154,13 +154,13 @@ vector<int> find_free_variables(const int rank, const int mat_width, const vecto
     return free_variables;
 }
 
-vector<ll> calculate_free_variable_limits(const machine &machine, const vector<int>& free_vars) {
-    vector free_var_lims(free_vars.size(), llmax);
+vector<int> calculate_free_variable_limits(const machine &machine, const vector<int>& free_vars) {
+    vector free_var_lims(free_vars.size(), MAX);
     for (int v = 0; v < free_vars.size(); v++) {
         const int var_col = free_vars[v];
         for (int i = 0; i < machine.bits; i++) {
             if (machine.changes[var_col] & (1 << i))
-                free_var_lims[v] = min(free_var_lims[v], static_cast<ll>(machine.joltage_requirements[i]));
+                free_var_lims[v] = min(free_var_lims[v], static_cast<int>(machine.joltage_requirements[i]));
         }
     }
 
@@ -169,12 +169,12 @@ vector<ll> calculate_free_variable_limits(const machine &machine, const vector<i
 
 // Solves a system of linear equations Ax = b over non-negative integers, minimizing sum(x).
 // Uses Gaussian elimination to reduce the system, then enumerates free variables.
-ll solve_ilp(const machine &machine) {
+int solve_ilp(const machine &machine) {
     const int mat_height = machine.bits;
     const int mat_width = static_cast<int>(machine.changes.size());
 
     // Augmented matrix: [A | b]
-    vector aug_mat(mat_height, vector<ll>(mat_width + 1));
+    vector aug_mat(mat_height, vector<int>(mat_width + 1));
     for (int i = 0; i < mat_height; i++) {
         for (int j = 0; j < mat_width; j++)
             aug_mat[i][j] = machine.changes[j] & (1 << i) ? 1 : 0;
@@ -185,30 +185,30 @@ ll solve_ilp(const machine &machine) {
     const int rank = transform_into_upper_triangular_form(mat_height, mat_width, aug_mat, pivot_col_by_row);
 
     const vector<int> free_vars = find_free_variables(rank, mat_width, pivot_col_by_row);
-    vector<long long> free_var_lims = calculate_free_variable_limits(machine, free_vars);
+    const vector<int> free_var_lims = calculate_free_variable_limits(machine, free_vars);
 
-    ll min_sum = llmax;
-    vector<ll> free_var_vals(free_vars.size());
+    int min_sum = MAX;
+    vector<int> free_var_vals(free_vars.size());
 
-    function<void(int, ll)> enumerate;
-    enumerate = [&](const int idx, const ll free_sum) -> void {
+    function<void(int, int)> enumerate;
+    enumerate = [&](const int idx, const int free_sum) -> void {
         if (free_sum >= min_sum) return;
 
         if (idx == free_vars.size()) {
-            ll total_sum = free_sum;
+            int total_sum = free_sum;
 
             for (int r = 0; r < rank; r++) {
-                ll rhs = aug_mat[r][mat_width];
+                int rhs = aug_mat[r][mat_width];
                 for (int v = 0; v < free_vars.size(); v++) {
                     const int var_col = free_vars[v];
                     rhs -= aug_mat[r][var_col] * free_var_vals[v];
                 }
 
                 const int pivot_col = pivot_col_by_row[r];
-                const ll divisor = aug_mat[r][pivot_col];
+                const int divisor = aug_mat[r][pivot_col];
                 if (rhs % divisor != 0) return;
 
-                const ll pivot_val = rhs / divisor;
+                const int pivot_val = rhs / divisor;
                 if (pivot_val < 0) return;
 
                 total_sum += pivot_val;
@@ -217,7 +217,7 @@ ll solve_ilp(const machine &machine) {
 
             min_sum = total_sum;
         } else {
-            for (ll v = 0; v <= free_var_lims[idx] && free_sum + v < min_sum; v++) {
+            for (int v = 0; v <= free_var_lims[idx] && free_sum + v < min_sum; v++) {
                 free_var_vals[idx] = v;
                 enumerate(idx + 1, free_sum + v);
             }
@@ -226,7 +226,7 @@ ll solve_ilp(const machine &machine) {
 
     enumerate(0, 0);
 
-    if (min_sum == llmax) throw runtime_error("No feasible solution found.");
+    if (min_sum == MAX) throw runtime_error("No feasible solution found.");
     return min_sum;
 }
 
