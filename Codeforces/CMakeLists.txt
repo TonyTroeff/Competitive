@@ -58,7 +58,7 @@ add_executable("835_G" "Round #835/SlavicG's Favorite Problem.cpp")
 add_executable("Hello_2023_A" "Hello 2023/Hall of Fame.cpp")
 
 add_executable("873_2_A" "Round #873/Divisible Array.cpp")
-add_executable("PermutationSwap" "Round #873/Permutation Swap.cpp")
+add_executable("873_2_B" "Round #873/Permutation Swap.cpp")
 add_executable("873_1_A" "Round #873/Counting Orders.cpp")
 
 add_executable("907_A" "Round #907/Sorting with Twos.cpp")
@@ -217,3 +217,11 @@ add_executable("1050_B" "Round #1050/Lasers.cpp")
 add_executable("1050_C" "Round #1050/Pacer.cpp")
 add_executable("1050_D" "Round #1050/Destruction of the Dandelion Fields.cpp")
 add_executable("1050_E" "Round #1050/Split.cpp")
+
+add_executable("1065_A" "Round #1065/Shizuku Hoshikawa and Farm Legs.cpp")
+add_executable("1065_B" "Round #1065/Yuu Koito and Minimum Absolute Sum.cpp")
+
+add_executable("1071_A" "Round #1071/Blackslex and Password.cpp")
+add_executable("1071_B" "Round #1071/Blackslex and Showering.cpp")
+add_executable("1071_C" "Round #1071/Blackslex and Number Theory.cpp")
+add_executable("1071_D" "Round #1071/Blackslex and Penguin Civilization.cpp")
